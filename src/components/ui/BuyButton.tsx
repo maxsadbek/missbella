@@ -3,12 +3,21 @@ import { ArrowUpRight } from "lucide-react";
 import { TELEGRAM_LINK } from "@/config";
 import { cn } from "@/lib/utils";
 
+import { buttonVariants } from "./button";
+
 interface BuyButtonProps {
   label?: string;
   variant?: "solid" | "outline" | "white";
   size?: "md" | "lg";
   className?: string;
 }
+
+/** BuyButton variantlarini umumiy button sistemasi variantlariga moslash. */
+const VARIANT_MAP = {
+  solid: "default",
+  outline: "outline",
+  white: "white",
+} as const;
 
 /**
  * «Sotib olish» tugmasi — har doim TELEGRAM_LINK ga yo'naltiradi.
@@ -26,19 +35,16 @@ export function BuyButton({
       target="_blank"
       rel="noopener noreferrer"
       className={cn(
-        "group inline-flex items-center justify-center gap-2 border text-xs font-semibold uppercase tracking-[0.25em] transition-colors duration-300",
-        size === "lg" ? "px-8 py-4" : "px-6 py-3",
-        variant === "solid" &&
-          "border-brand-500 bg-brand-500 text-white hover:border-brand-600 hover:bg-brand-600",
-        variant === "outline" &&
-          "border-brand-950 bg-transparent text-brand-950 hover:border-brand-500 hover:text-brand-500",
-        variant === "white" &&
-          "border-white bg-white text-brand-500 hover:border-brand-50 hover:bg-brand-50",
+        buttonVariants({
+          variant: VARIANT_MAP[variant],
+          size: size === "lg" ? "lg" : "default",
+        }),
+        "group",
         className
       )}
     >
       {label}
-      <ArrowUpRight className="size-4 transition-colors duration-300" />
+      <ArrowUpRight className="size-4 transition-transform duration-300 group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
     </a>
   );
 }

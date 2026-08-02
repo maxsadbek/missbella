@@ -3,72 +3,72 @@
 @custom-variant dark (&:is(.dark *));
 
 :root {
-  --radius: 0rem;
+  --radius: 1rem;
 
   --background: #ffffff;
-  --foreground: #360100;
+  --foreground: #450a0a;
 
   --card: #ffffff;
-  --card-foreground: #360100;
+  --card-foreground: #450a0a;
 
   --popover: #ffffff;
-  --popover-foreground: #360100;
+  --popover-foreground: #450a0a;
 
-  --primary: #df2b22;
+  --primary: #e53935;
   --primary-foreground: #ffffff;
 
-  --secondary: #fdeeed;
-  --secondary-foreground: #560200;
+  --secondary: #fff2f2;
+  --secondary-foreground: #d32f2f;
 
-  --muted: #fdeeed;
-  --muted-foreground: #9e0400;
+  --muted: #fff2f2;
+  --muted-foreground: #b46a6a;
 
-  --accent: #fdeeed;
-  --accent-foreground: #560200;
+  --accent: #fff2f2;
+  --accent-foreground: #d32f2f;
 
-  --destructive: #df2b22;
+  --destructive: #e53935;
   --destructive-foreground: #ffffff;
 
-  --border: #f6b3b0;
-  --input: #f6b3b0;
-  --ring: #df2b22;
+  --border: #f3caca;
+  --input: #f3caca;
+  --ring: #e53935;
 
-  --chart-1: #df2b22;
-  --chart-2: #ee726a;
-  --chart-3: #a00b05;
-  --chart-4: #f8c9c6;
-  --chart-5: #c5120b;
+  --chart-1: #e53935;
+  --chart-2: #e66a66;
+  --chart-3: #b52323;
+  --chart-4: #f3caca;
+  --chart-5: #d32f2f;
 
   --sidebar: #ffffff;
-  --sidebar-foreground: #360100;
-  --sidebar-primary: #df2b22;
+  --sidebar-foreground: #450a0a;
+  --sidebar-primary: #e53935;
   --sidebar-primary-foreground: #ffffff;
-  --sidebar-accent: #fdeeed;
-  --sidebar-accent-foreground: #560200;
-  --sidebar-border: #f6b3b0;
-  --sidebar-ring: #df2b22;
+  --sidebar-accent: #fff2f2;
+  --sidebar-accent-foreground: #d32f2f;
+  --sidebar-border: #f3caca;
+  --sidebar-ring: #e53935;
 }
 
 .dark {
-  --background: #360100;
+  --background: #450a0a;
   --foreground: #ffffff;
-  --card: #560200;
+  --card: #6b1212;
   --card-foreground: #ffffff;
-  --popover: #560200;
+  --popover: #6b1212;
   --popover-foreground: #ffffff;
-  --primary: #df2b22;
+  --primary: #e53935;
   --primary-foreground: #ffffff;
-  --secondary: #7a0300;
+  --secondary: #8f1a1a;
   --secondary-foreground: #ffffff;
-  --muted: #7a0300;
-  --muted-foreground: #f6b3b0;
-  --accent: #7a0300;
+  --muted: #8f1a1a;
+  --muted-foreground: #f3caca;
+  --accent: #8f1a1a;
   --accent-foreground: #ffffff;
-  --destructive: #df2b22;
+  --destructive: #e53935;
   --destructive-foreground: #ffffff;
-  --border: #7a0300;
-  --input: #7a0300;
-  --ring: #ee726a;
+  --border: #8f1a1a;
+  --input: #8f1a1a;
+  --ring: #e66a66;
 }
 
 @theme inline {
@@ -108,26 +108,30 @@
   --font-sans: "Inter", ui-sans-serif, system-ui, -apple-system, sans-serif;
   --font-display: "Playfair Display", ui-serif, Georgia, serif;
 
-  --radius-sm: 0rem;
-  --radius-md: 0rem;
-  --radius-lg: 0rem;
-  --radius-xl: 0rem;
+  --radius-sm: 0.875rem;
+  --radius-md: 1rem;
+  --radius-lg: 1.25rem;
+  --radius-xl: 1.5rem;
 }
 
-/* MissBella brand — faqat oq + qizil rang oilasi */
+/* MissBella brand — premium oq + qizil rang oilasi */
 @theme {
-  --color-brand-50: #fdf1f0;
-  --color-brand-100: #fbe4e2;
-  --color-brand-200: #f8c9c6;
-  --color-brand-300: #f3a49f;
-  --color-brand-400: #ee726a;
-  --color-brand-500: #df2b22;
-  --color-brand-600: #c5120b;
-  --color-brand-700: #a00b05;
-  --color-brand-800: #7c0702;
-  --color-brand-900: #580401;
-  --color-brand-950: #390200;
+  --color-brand-50: #fff2f2;
+  --color-brand-100: #f3caca;
+  --color-brand-200: #f3caca;
+  --color-brand-300: #eda3a3;
+  --color-brand-400: #e66a66;
+  --color-brand-500: #e53935;
+  --color-brand-600: #d32f2f;
+  --color-brand-700: #b52323;
+  --color-brand-800: #8f1a1a;
+  --color-brand-900: #6b1212;
+  --color-brand-950: #450a0a;
   --color-brand-white: #ffffff;
+
+  --shadow-soft: 0 8px 24px -6px rgb(229 57 53 / 0.22);
+  --shadow-lift: 0 14px 34px -10px rgb(69 10 10 / 0.28);
+  --shadow-card: 0 24px 48px -24px rgb(69 10 10 / 0.3);
 }
 
 @layer base {

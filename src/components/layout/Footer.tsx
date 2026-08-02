@@ -28,7 +28,7 @@ export function Footer() {
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Telegram"
-              className="flex size-11 items-center justify-center border border-brand-200 text-brand-950 transition-colors duration-300 hover:border-brand-500 hover:text-brand-500"
+              className="flex size-11 items-center justify-center rounded-full border border-brand-200 text-brand-950 transition-all duration-300 hover:-translate-y-0.5 hover:border-brand-500 hover:text-brand-500 hover:shadow-soft"
             >
               <Send className="size-4" />
             </a>
@@ -37,7 +37,7 @@ export function Footer() {
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Instagram"
-              className="flex size-11 items-center justify-center border border-brand-200 text-brand-950 transition-colors duration-300 hover:border-brand-500 hover:text-brand-500"
+              className="flex size-11 items-center justify-center rounded-full border border-brand-200 text-brand-950 transition-all duration-300 hover:-translate-y-0.5 hover:border-brand-500 hover:text-brand-500 hover:shadow-soft"
             >
               <InstagramIcon className="size-4" />
             </a>
@@ -54,7 +54,7 @@ export function Footer() {
               <li key={link.to}>
                 <Link
                   to={link.to}
-                  className="text-sm text-brand-700 transition-colors duration-300 hover:text-brand-500"
+                  className="text-sm text-brand-700 transition-all duration-300 hover:pl-1 hover:text-brand-500"
                 >
                   {link.label}
                 </Link>
@@ -73,7 +73,7 @@ export function Footer() {
               <li key={category.id}>
                 <Link
                   to={`/catalog?category=${category.id}`}
-                  className="text-sm text-brand-700 transition-colors duration-300 hover:text-brand-500"
+                  className="text-sm text-brand-700 transition-all duration-300 hover:pl-1 hover:text-brand-500"
                 >
                   {category.label}
                 </Link>

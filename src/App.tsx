@@ -1,6 +1,7 @@
 import { AnimatePresence, motion } from "framer-motion";
 import { Route, Routes, useLocation } from "react-router-dom";
 
+import { EASE } from "@/lib/animations";
 import { Footer } from "@/components/layout/Footer";
 import { Header } from "@/components/layout/Header";
 import { ScrollToTop } from "@/components/layout/ScrollToTop";
@@ -11,7 +12,7 @@ import { HomePage } from "@/pages/HomePage";
 import { NotFoundPage } from "@/pages/NotFoundPage";
 import { ProductPage } from "@/pages/ProductPage";
 
-/** Sahifalar orasidagi nozik fade (opacity) o'tish. */
+/** Sahifalar orasidagi nozik fade + slide up o'tish. */
 function AnimatedRoutes() {
   const location = useLocation();
 
@@ -19,10 +20,10 @@ function AnimatedRoutes() {
     <AnimatePresence mode="wait" initial={false}>
       <motion.main
         key={location.pathname}
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        exit={{ opacity: 0, transition: { duration: 0.18, ease: "easeOut" } }}
-        transition={{ duration: 0.3, ease: "easeOut" }}
+        initial={{ opacity: 0, y: 14 }}
+        animate={{ opacity: 1, y: 0 }}
+        exit={{ opacity: 0, y: -6, transition: { duration: 0.16, ease: "easeIn" } }}
+        transition={{ duration: 0.4, ease: EASE }}
         className="flex-1"
       >
         <Routes location={location}>
