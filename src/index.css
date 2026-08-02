@@ -1,0 +1,150 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:is(.dark *));
+
+:root {
+  --radius: 0rem;
+
+  --background: #ffffff;
+  --foreground: #360100;
+
+  --card: #ffffff;
+  --card-foreground: #360100;
+
+  --popover: #ffffff;
+  --popover-foreground: #360100;
+
+  --primary: #df2b22;
+  --primary-foreground: #ffffff;
+
+  --secondary: #fdeeed;
+  --secondary-foreground: #560200;
+
+  --muted: #fdeeed;
+  --muted-foreground: #9e0400;
+
+  --accent: #fdeeed;
+  --accent-foreground: #560200;
+
+  --destructive: #df2b22;
+  --destructive-foreground: #ffffff;
+
+  --border: #f6b3b0;
+  --input: #f6b3b0;
+  --ring: #df2b22;
+
+  --chart-1: #df2b22;
+  --chart-2: #ee726a;
+  --chart-3: #a00b05;
+  --chart-4: #f8c9c6;
+  --chart-5: #c5120b;
+
+  --sidebar: #ffffff;
+  --sidebar-foreground: #360100;
+  --sidebar-primary: #df2b22;
+  --sidebar-primary-foreground: #ffffff;
+  --sidebar-accent: #fdeeed;
+  --sidebar-accent-foreground: #560200;
+  --sidebar-border: #f6b3b0;
+  --sidebar-ring: #df2b22;
+}
+
+.dark {
+  --background: #360100;
+  --foreground: #ffffff;
+  --card: #560200;
+  --card-foreground: #ffffff;
+  --popover: #560200;
+  --popover-foreground: #ffffff;
+  --primary: #df2b22;
+  --primary-foreground: #ffffff;
+  --secondary: #7a0300;
+  --secondary-foreground: #ffffff;
+  --muted: #7a0300;
+  --muted-foreground: #f6b3b0;
+  --accent: #7a0300;
+  --accent-foreground: #ffffff;
+  --destructive: #df2b22;
+  --destructive-foreground: #ffffff;
+  --border: #7a0300;
+  --input: #7a0300;
+  --ring: #ee726a;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-chart-1: var(--chart-1);
+  --color-chart-2: var(--chart-2);
+  --color-chart-3: var(--chart-3);
+  --color-chart-4: var(--chart-4);
+  --color-chart-5: var(--chart-5);
+  --color-sidebar: var(--sidebar);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-ring: var(--sidebar-ring);
+
+  --font-sans: "Inter", ui-sans-serif, system-ui, -apple-system, sans-serif;
+  --font-display: "Playfair Display", ui-serif, Georgia, serif;
+
+  --radius-sm: 0rem;
+  --radius-md: 0rem;
+  --radius-lg: 0rem;
+  --radius-xl: 0rem;
+}
+
+/* MissBella brand — faqat oq + qizil rang oilasi */
+@theme {
+  --color-brand-50: #fdf1f0;
+  --color-brand-100: #fbe4e2;
+  --color-brand-200: #f8c9c6;
+  --color-brand-300: #f3a49f;
+  --color-brand-400: #ee726a;
+  --color-brand-500: #df2b22;
+  --color-brand-600: #c5120b;
+  --color-brand-700: #a00b05;
+  --color-brand-800: #7c0702;
+  --color-brand-900: #580401;
+  --color-brand-950: #390200;
+  --color-brand-white: #ffffff;
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-family: var(--font-sans);
+  }
+
+  ::selection {
+    @apply bg-brand-500 text-white;
+  }
+}
