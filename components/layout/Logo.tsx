@@ -14,9 +14,15 @@ export function Logo({
       className={cn("group flex items-center gap-3", className)}
       aria-label="20-maktab"
     >
-      <span className="relative grid h-10 w-10 place-items-center overflow-hidden rounded-[6px] bg-gradient-to-br from-[#0A84FF] to-[#0066FF] font-display text-lg font-extrabold text-white shadow-[0_8px_24px_-8px_rgba(0,102,255,0.8)] transition-transform duration-300 group-hover:scale-105">
-        <span className="absolute inset-0 bg-gradient-to-t from-black/25 to-transparent" />
-        20
+      <span className="relative grid h-10 w-10 shrink-0 place-items-center transition-transform duration-300 group-hover:scale-105">
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img
+          src="/logo.png"
+          alt="20-maktab logosi"
+          width={40}
+          height={40}
+          className="h-full w-full object-contain drop-shadow-[0_6px_16px_rgba(0,102,255,0.35)]"
+        />
       </span>
       <span className="hidden flex-col leading-none sm:flex">
         <span
