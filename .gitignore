@@ -2,16 +2,29 @@
 node_modules
 
 # Build output
-dist
+.next
+out
+
+# Data store (auth)
+data
 
 # Logs
 logs
 *.log
 npm-debug.log*
 
-# Editor
+# Editor / OS
 .vscode/*
 !.vscode/extensions.json
 .idea
 .DS_Store
 *.local
+
+# Env
+.env
+.env.local
+.env*.local
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts

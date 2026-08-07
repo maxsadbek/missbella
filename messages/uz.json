@@ -1,0 +1,256 @@
+{
+  "meta": {
+    "title": "20-maktab — Kelajak shu yerda boshlanadi",
+    "description": "20-maktab — zamonaviy bilim, texnologiya va ijod markazi. O'zbek, rus va ingliz tillarida."
+  },
+  "nav": {
+    "home": "Bosh sahifa",
+    "about": "Maktab haqida",
+    "news": "Yangiliklar",
+    "teachers": "O'qituvchilar",
+    "gallery": "Galereya",
+    "login": "Kirish",
+    "register": "Ro'yxatdan o'tish",
+    "menu": "Menyu",
+    "logout": "Chiqish",
+    "student": "O'quvchi"
+  },
+  "common": {
+    "loading": "Yuklanmoqda...",
+    "darkMode": "Tungi rejim",
+    "lightMode": "Kunduzgi rejim",
+    "language": "Til",
+    "readMore": "Batafsil",
+    "backHome": "Bosh sahifaga qaytish"
+  },
+  "hero": {
+    "badge": "20-maktab • O'zbekiston",
+    "title": "Kelajak shu yerda boshlanadi",
+    "subtitle": "Zamonaviy texnologiyalar, xalqaro standartlar va ilg'or o'qituvchilar — barchasi bitta maktabda.",
+    "cta1": "Maktab haqida",
+    "cta2": "Yangiliklar",
+    "scroll": "Pastga suring"
+  },
+  "stats": {
+    "eyebrow": "20-maktab raqamlarda",
+    "students": "O'quvchilar",
+    "teachers": "O'qituvchilar",
+    "years": "Yillik tarix",
+    "awards": "Olimpiada g'oliblari"
+  },
+  "intro": {
+    "eyebrow": "Nega 20-maktab?",
+    "title": "Zamonaviy ta'limning yangi darajasi",
+    "p1": "20-maktab — bu shunchaki maktab emas. Bu o'quvchilarimizning qiziqishlarini kashf etadigan, ularni zamonaviy dunyoga tayyorlaydigan innovatsion ta'lim muhiti.",
+    "p2": "Biz STEM fanlari, tillar va ijodiy fanlarni birlashtirgan noyob o'quv dasturini taklif qilamiz.",
+    "features": [
+      { "title": "Ilg'or texnologiyalar", "text": "Robototexnika, IT va raqamli laboratoriyalar — o'quvchilar amaliy ko'nikmalarni o'rganadi." },
+      { "title": "Xalqaro standartlar", "text": "Darslar zamonaviy pedagogika asosida, xalqaro ta'lim tajribasiga tayangan holda olib boriladi." },
+      { "title": "Ijodiy muhit", "text": "Sport, san'at va ijodiy to'garaklar — har bir o'quvchi o'z iste'dodini topadi." }
+    ]
+  },
+  "featuredNews": {
+    "eyebrow": "So'nggi yangiliklar",
+    "title": "Maktab hayotidan",
+    "cta": "Barcha yangiliklar"
+  },
+  "aboutPreview": {
+    "eyebrow": "Biz haqimizda",
+    "title": "1978-yildan buyon bilim o'chog'i",
+    "text": "Qariyb yarim asrlik tarixga ega 20-maktab bugun zamonaviy texnologiyalar bilan jihozlangan, tajribali pedagoglar jamoasi bilan minglab o'quvchilarga sifatli ta'lim berib kelmoqda.",
+    "cta": "To'liq ma'lumot"
+  },
+  "cta": {
+    "title": "20-maktab jamoasiga qo'shiling",
+    "text": "Farzandingiz kelajagi uchun to'g'ri tanlov qiling. Ro'yxatdan o'ting va biz bilan aloqada bo'ling.",
+    "btn1": "Ro'yxatdan o'tish",
+    "btn2": "Yangiliklar"
+  },
+  "about": {
+    "eyebrow": "Maktab haqida",
+    "title": "Tarix va qadriyatlarimiz",
+    "p1": "20-maktab 1978-yilda tashkil etilgan bo'lib, o'shandan buyon minglab bitiruvchilarni voyaga yetkazdi. Bugun maktabimiz zamonaviy ta'lim texnologiyalari bilan jihozlangan: interaktiv sinflar, STEM laboratoriyalari, sport zali va kutubxona.",
+    "p2": "Bizning asosiy maqsadimiz — har bir o'quvchining qobiliyatini ochib berish, mustaqil fikrlaydigan, mas'uliyatli va bilimdon shaxsni tarbiyalash.",
+    "missionTitle": "Missiyamiz",
+    "mission": "Har bir o'quvchiga zamonaviy dunyoda muvaffaqiyatli bo'lish uchun zarur bo'lgan bilim va ko'nikmalarni berish.",
+    "visionTitle": "Maqsadimiz",
+    "vision": "Mintaqadagi eng ilg'or va innovatsion ta'lim muassasasiga aylanish.",
+    "valuesTitle": "Qadriyatlarimiz",
+    "values": [
+      { "title": "Bilim", "text": "Doimiy o'rganish va rivojlanishga intilish." },
+      { "title": "Halollik", "text": "Ochiqlik va to'g'rilik — har bir ishimiz asosi." },
+      { "title": "Ijodkorlik", "text": "Yangi g'oyalar va yondashuvlarga ochiqlik." },
+      { "title": "Hamjihatlik", "text": "Jamoa bo'lib ishlash va bir-birini qo'llab-quvvatlash." }
+    ],
+    "timelineTitle": "Rivojlanish yo'li",
+    "timeline": [
+      { "year": "1978", "text": "Maktab tashkil etildi, birinchi o'quvchilar qabul qilindi." },
+      { "year": "1995", "text": "Kompyuter sinflari ochildi, informatika joriy etildi." },
+      { "year": "2010", "text": "Maktab to'liq ta'mirlandi, yangi sport zali qurildi." },
+      { "year": "2020", "text": "STEM laboratoriyalari va robototexnika to'garagi ochildi." },
+      { "year": "2026", "text": "Raqamli ta'lim platformasi va xalqaro hamkorlik dasturlari yo'lga qo'yildi." }
+    ],
+    "cta": "Yangiliklarimizni kuzatib boring"
+  },
+  "news": {
+    "eyebrow": "Yangiliklar",
+    "title": "Maktab hayotidan eng so'nggi voqealar",
+    "subtitle": "Olimpiadalar, tadbirlar va maktabimizdagi muhim o'zgarishlar haqida birinchi bo'lib xabardor bo'ling.",
+    "all": "Barchasi",
+    "readMore": "To'liq o'qish",
+    "back": "Barcha yangiliklar",
+    "notFound": "Yangilik topilmadi",
+    "items": [
+      {
+        "slug": "robotics-olympiad",
+        "title": "O'quvchilarimiz robototexnika olimpiadasida g'olib bo'lishdi",
+        "date": "12-may, 2026",
+        "category": "Musobaqalar",
+        "excerpt": "Jamoamiz Respublika robototexnika olimpiadasida 2 ta oltin va 1 ta kumush medalni qo'lga kiritdi.",
+        "body": [
+          "20-maktab jamoasi Respublika robototexnika olimpiadasida ajoyib natija ko'rsatdi. 3-sinfdan 11-sinfgacha bo'lgan o'quvchilardan tashkil topgan jamoa ikki yo'nalishda g'oliblikni qo'lga kiritdi.",
+          "O'quvchilarimiz 3 oy davomida robotlarni loyihalash, dasturlash va sinovdan o'tkazish ustida ishladilar. Hakamlar hay'ati ularning texnik yechimlarini yuqori baholadi.",
+          "Maktab rahbariyati g'oliblarni tabriklab, kelgusi yil xalqaro musobaqalarda qatnashish rejalashtirilayotganini ma'lum qildi."
+        ]
+      },
+      {
+        "slug": "new-science-lab",
+        "title": "Yangi STEM laboratoriyasi ochildi",
+        "date": "28-aprel, 2026",
+        "category": "Maktab hayoti",
+        "excerpt": "Fizika, kimyo va biologiya fanlari uchun zamonaviy jihozlar bilan to'liq ta'minlangan laboratoriya ish boshladi.",
+        "body": [
+          "Yangi STEM laboratoriyasi o'quvchilarimiz uchun o'z eshiklarini ochdi. Laboratoriya fizika, kimyo va biologiya fanlari bo'yicha zamonaviy o'quv tajribalarini o'tkazish uchun barcha zarur jihozlar bilan ta'minlangan.",
+          "Yangilangan laboratoriyada 3D printerlar, mikroskoplar va interaktiv doskalar mavjud. O'quvchilar endi nazariy bilimlarni amalda qo'llash imkoniyatiga ega bo'lishdi.",
+          "Laboratoriya ochilishiga bag'ishlangan tantanada o'quvchilar tomonidan tayyorlangan ilmiy loyihalar namoyish etildi."
+        ]
+      },
+      {
+        "slug": "english-immersion-week",
+        "title": "Ingliz tili haftaligi o'tkazildi",
+        "date": "10-aprel, 2026",
+        "category": "Tadbirlar",
+        "excerpt": "Bir hafta davomida o'quvchilar ingliz tilida debatlar, viktorinalar va ijodiy tanlovlarda qatnashdilar.",
+        "body": [
+          "20-maktabda ingliz tili haftaligi katta qiziqish bilan o'tkazildi. Hafta davomida o'quvchilar ingliz tilida nutq tanlovlari, debatlar va viktorinalarda ishtirok etishdi.",
+          "Tadbirning yakuniy kunida o'quvchilar ingliz tilida teatrlashtirilgan sahna ko'rinishlarini namoyish etdilar. Eng faol ishtirokchilar maxsus sertifikatlar bilan taqdirlandilar.",
+          "Maktabning chet tili o'qituvchilari bunday tadbirlar endi har o'quv yilida an'anaviy tarzda o'tkazilishini ma'lum qilishdi."
+        ]
+      },
+      {
+        "slug": "graduates-day",
+        "title": "Bitiruvchilar kuni — 2026",
+        "date": "25-may, 2026",
+        "category": "Tadbirlar",
+        "excerpt": "Bu yilgi bitiruvchilar xalqaro imtihonlarda yuqori natijalar ko'rsatib, nufuzli oliy o'quv yurtlariga yo'llanma olishdi.",
+        "body": [
+          "Bitiruvchilar kuni 20-maktab uchun tantanali va ta'sirli voqea bo'ldi. Bu yil 120 nafar bitiruvchi maktabni muvaffaqiyatli tamomlab, hayotning yangi bosqichiga qadam qo'ydi.",
+          "Bitiruvchilarimizning ko'pchiligi xalqaro imtihonlarda yuqori ball to'plab, respublikaning nufuzli oliy o'quv yurtlariga qabul qilindi.",
+          "Tantanada bitiruvchilar o'qituvchilari uchun konsert dasturini tayyorladilar va maktab tarixida o'z izlarini qoldirdilar."
+        ]
+      },
+      {
+        "slug": "chess-club-victory",
+        "title": "Shaxmat to'garagi shahar chempionatida 1-o'rinni oldi",
+        "date": "15-mart, 2026",
+        "category": "Musobaqalar",
+        "excerpt": "Shaxmat to'garagimiz o'quvchilari shahar chempionatida umumjamoa hisobida birinchi o'rinni egalladi.",
+        "body": [
+          "20-maktab shaxmat to'garagi a'zolari shahar maktab o'quvchilari o'rtasidagi chempionatda ishtirok etib, umumjamoa hisobida birinchi o'rinni qo'lga kiritdi.",
+          "Musobaqada 24 ta maktab jamoasi qatnashdi. O'quvchilarimizning barqaror o'yini ularga chempionlikni taqdim etdi.",
+          "To'garak rahbari o'quvchilarning mehnatsevarligi tufayli bu natijaga erishilganini ta'kidladi va kelgusi musobaqalarda yanada yuqori natijalar kutilayotganini aytdi."
+        ]
+      },
+      {
+        "slug": "eco-spring",
+        "title": "«Yashil bahor» ekologik tadbiri",
+        "date": "5-mart, 2026",
+        "category": "Maktab hayoti",
+        "excerpt": "O'quvchilar maktab hovlisiga 200 dan ortiq daraxt va butalar ekishdi.",
+        "body": [
+          "«Yashil bahor» ekologik tadbiri doirasida 20-maktab o'quvchilari maktab hovlisida 200 dan ortiq daraxt va buta ko'chatlarini ekishdi.",
+          "Tadbirda barcha sinflar ishtirok etdi. O'quvchilar o'z sinfiy maydonlarini ko'kalamzorlashtirib, maktabimiz yanada yashil va go'zal bo'ldi.",
+          "Ekologik tadbir an'anaviy tus olib, har bahorda o'tkazilishi rejalashtirilmoqda."
+        ]
+      }
+    ]
+  },
+  "teachers": {
+    "eyebrow": "Pedagogik jamoa",
+    "title": "Bizning o'qituvchilarimiz",
+    "subtitle": "Tajribali va innovatsion pedagoglar — har bir o'quvchining muvaffaqiyati uchun mehnat qiladi.",
+    "experience": "Yillik tajriba",
+    "items": [
+      { "name": "Dilnoza Karimova", "subject": "Matematika", "exp": "22 yil", "bio": "Oliy toifali o'qituvchi, olimpiada g'oliblari tayyorlagan murabbiy." },
+      { "name": "Aziz Rahimov", "subject": "Fizika", "exp": "18 yil", "bio": "STEM laboratoriyasi asoschisi, ilmiy loyihalar rahbari." },
+      { "name": "Malika Yusupova", "subject": "Ingliz tili", "exp": "15 yil", "bio": "IELTS sertifikati sohibi, xalqaro almashinuv dasturlari koordinatori." },
+      { "name": "Jamshid Toshpo'latov", "subject": "Informatika", "exp": "10 yil", "bio": "Robototexnika to'garagi rahbari, dasturlash bo'yicha murabbiy." },
+      { "name": "Gulnora Saidova", "subject": "Kimyo", "exp": "20 yil", "bio": "Respublika tanlovlari g'oliblarini tayyorlagan metodist." },
+      { "name": "Bobur Nazarov", "subject": "Tarix", "exp": "12 yil", "bio": "Muzeyshunoslik loyihasi rahbari, faol yosh o'qituvchi." },
+      { "name": "Nilufar Abdullayeva", "subject": "Ona tili va adabiyot", "exp": "17 yil", "bio": "Kitobxonlik oyligi tashabbuskori, insho tanlovlari murabbiyi." },
+      { "name": "Sarvar Ismoilov", "subject": "Jismoniy tarbiya", "exp": "14 yil", "bio": "Sport to'garaklari murabbiyi, shahar chempionatlari g'oliblari tayyorlagan." }
+    ]
+  },
+  "gallery": {
+    "eyebrow": "Galereya",
+    "title": "Maktab hayotidan lavhalar",
+    "subtitle": "Tadbirlar, darslar va maktabimiz kundalik hayoti — fotolarda.",
+    "all": "Barchasi",
+    "items": [
+      { "seed": "m20-campus", "title": "Maktab binosi", "tag": "Binolar" },
+      { "seed": "m20-lab", "title": "STEM laboratoriyasi", "tag": "Darslar" },
+      { "seed": "m20-robotics", "title": "Robototexnika to'garagi", "tag": "To'garaklar" },
+      { "seed": "m20-library", "title": "Kutubxona", "tag": "Binolar" },
+      { "seed": "m20-sport", "title": "Sport zali", "tag": "Sport" },
+      { "seed": "m20-olympiad", "title": "Olimpiada g'alabasi", "tag": "Tadbirlar" },
+      { "seed": "m20-graduation", "title": "Bitiruvchilar kuni", "tag": "Tadbirlar" },
+      { "seed": "m20-concert", "title": "Konsert dasturi", "tag": "Tadbirlar" }
+    ]
+  },
+  "auth": {
+    "loginTitle": "Hisobingizga kiring",
+    "loginSubtitle": "Shaxsiy kabinetga kirish uchun ma'lumotlaringizni kiriting.",
+    "registerTitle": "Ro'yxatdan o'ting",
+    "registerSubtitle": "20-maktab jamoasiga qo'shiling — bir daqiqada hisob yarating.",
+    "name": "Ism familiya",
+    "namePlaceholder": "Ali Valiyev",
+    "email": "Elektron pochta",
+    "emailPlaceholder": "you@example.com",
+    "password": "Parol",
+    "passwordPlaceholder": "Kamida 8 ta belgi",
+    "confirm": "Parolni tasdiqlash",
+    "confirmPlaceholder": "Parolni qayta kiriting",
+    "loginBtn": "Kirish",
+    "registerBtn": "Ro'yxatdan o'tish",
+    "loading": "Yuborilmoqda...",
+    "noAccount": "Hisobingiz yo'qmi?",
+    "haveAccount": "Hisobingiz bormi?",
+    "toRegister": "Ro'yxatdan o'tish",
+    "toLogin": "Kirish",
+    "successLogin": "Xush kelibsiz!",
+    "successRegister": "Hisob muvaffaqiyatli yaratildi!",
+    "logout": "Chiqish",
+    "welcome": "Xush kelibsiz",
+    "strength": "Parol kuchi",
+    "errors": {
+      "nameShort": "Ism kamida 2 ta belgidan iborat bo'lishi kerak.",
+      "emailInvalid": "To'g'ri elektron pochta kiriting.",
+      "passwordShort": "Parol kamida 8 ta belgidan iborat bo'lishi kerak.",
+      "passwordMismatch": "Parollar mos kelmadi.",
+      "emailExists": "Bu elektron pochta allaqachon ro'yxatdan o'tgan.",
+      "invalidCredentials": "Elektron pochta yoki parol noto'g'ri.",
+      "required": "Bu maydon to'ldirilishi shart."
+    }
+  },
+  "footer": {
+    "blurb": "20-maktab — zamonaviy bilim, texnologiya va ijod markazi. 1978-yildan buyon minglab bitiruvchilarni voyaga yetkazmoqda.",
+    "linksTitle": "Sahifalar",
+    "infoTitle": "Maktab",
+    "address": "Shahar markazi, Ma'rifat ko'chasi 20-uy",
+    "phone": "+998 (71) 200-20-20",
+    "email": "info@20-maktab.uz",
+    "hours": "Dushanba — Shanba: 8:00 — 17:00",
+    "rights": "Barcha huquqlar himoyalangan.",
+    "madeWith": "Sevgi bilan yaratildi"
+  }
+}

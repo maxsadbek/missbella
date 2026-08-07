@@ -1,0 +1,169 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme inline {
+  --color-primary: var(--primary);
+  --color-primary-bright: var(--primary-bright);
+  --color-primary-soft: var(--primary-soft);
+  --color-navy: var(--navy);
+  --color-navy-deep: var(--navy-deep);
+  --color-bg: var(--bg);
+  --color-surface: var(--surface);
+  --color-ink: var(--ink);
+  --color-ink-soft: var(--ink-soft);
+  --color-line: var(--line);
+
+  --font-display: var(--font-display), "Unbounded", system-ui, sans-serif;
+  --font-body: var(--font-body), "Manrope", system-ui, sans-serif;
+
+  --radius-brand: 6px;
+  --ease-brand: cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+:root {
+  --primary: #0066ff;
+  --primary-bright: #0a84ff;
+  --primary-soft: #eaf2ff;
+  --navy: #0a1528;
+  --navy-deep: #050b1a;
+  --bg: #ffffff;
+  --surface: #f4f7fd;
+  --ink: #050b1a;
+  --ink-soft: #46577d;
+  --line: #dbe5f7;
+  --grid-line: rgba(10, 21, 40, 0.05);
+}
+
+.dark {
+  --primary: #0a84ff;
+  --primary-bright: #4da3ff;
+  --primary-soft: #10244d;
+  --navy: #0a1528;
+  --navy-deep: #04070f;
+  --bg: #04070f;
+  --surface: #0a1120;
+  --ink: #eef3ff;
+  --ink-soft: #9fb0d4;
+  --line: #16233e;
+  --grid-line: rgba(90, 140, 255, 0.08);
+}
+
+* {
+  border-color: var(--line);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--ink);
+  font-family: var(--font-body), system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+  transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+::selection {
+  background: var(--primary);
+  color: #ffffff;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-track {
+  background: var(--bg);
+}
+::-webkit-scrollbar-thumb {
+  background: color-mix(in srgb, var(--primary) 40%, transparent);
+  border-radius: 8px;
+  border: 2px solid var(--bg);
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--primary);
+}
+
+/* ---------- Utilities ---------- */
+
+.text-gradient {
+  background-image: linear-gradient(
+    115deg,
+    #7fb5ff 0%,
+    var(--primary-bright) 45%,
+    var(--primary) 100%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.bg-grid {
+  background-image:
+    linear-gradient(to right, var(--grid-line) 1px, transparent 1px),
+    linear-gradient(to bottom, var(--grid-line) 1px, transparent 1px);
+  background-size: 56px 56px;
+}
+
+.bg-grid-dark {
+  background-image:
+    linear-gradient(to right, rgba(90, 140, 255, 0.07) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(90, 140, 255, 0.07) 1px, transparent 1px);
+  background-size: 56px 56px;
+}
+
+.glass {
+  background-color: color-mix(in srgb, var(--bg) 72%, transparent);
+  backdrop-filter: blur(18px) saturate(1.4);
+  -webkit-backdrop-filter: blur(18px) saturate(1.4);
+}
+
+.glass-dark {
+  background-color: color-mix(in srgb, #050b1a 55%, transparent);
+  backdrop-filter: blur(18px) saturate(1.4);
+  -webkit-backdrop-filter: blur(18px) saturate(1.4);
+}
+
+.noise-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 200;
+  pointer-events: none;
+  opacity: 0.035;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+
+.hero-vignette {
+  background: radial-gradient(
+    ellipse at center,
+    transparent 42%,
+    rgba(2, 6, 18, 0.6) 100%
+  );
+}
+
+.hero-text-shadow {
+  text-shadow: 0 4px 40px rgba(2, 6, 18, 0.85);
+}
+
+.btn-glow {
+  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.08), 0 8px 30px -8px rgba(0, 102, 255, 0.55);
+}
+
+.hairline-gradient {
+  height: 1px;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    color-mix(in srgb, var(--primary) 55%, transparent),
+    transparent
+  );
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}

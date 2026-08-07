@@ -1,0 +1,256 @@
+{
+  "meta": {
+    "title": "School No. 20 — The future starts here",
+    "description": "School No. 20 — a modern center of knowledge, technology and creativity. In Uzbek, Russian and English."
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "news": "News",
+    "teachers": "Teachers",
+    "gallery": "Gallery",
+    "login": "Login",
+    "register": "Register",
+    "menu": "Menu",
+    "logout": "Log out",
+    "student": "Student"
+  },
+  "common": {
+    "loading": "Loading...",
+    "darkMode": "Dark mode",
+    "lightMode": "Light mode",
+    "language": "Language",
+    "readMore": "Read more",
+    "backHome": "Back to home"
+  },
+  "hero": {
+    "badge": "School No. 20 • Uzbekistan",
+    "title": "The future starts here",
+    "subtitle": "Modern technology, international standards and forward-thinking teachers — all in one school.",
+    "cta1": "About the school",
+    "cta2": "News",
+    "scroll": "Scroll down"
+  },
+  "stats": {
+    "eyebrow": "School No. 20 in numbers",
+    "students": "Students",
+    "teachers": "Teachers",
+    "years": "Years of history",
+    "awards": "Olympiad winners"
+  },
+  "intro": {
+    "eyebrow": "Why School No. 20?",
+    "title": "A new level of modern education",
+    "p1": "School No. 20 is more than just a school. It is an innovative learning environment where our students discover their interests and get ready for the modern world.",
+    "p2": "We offer a unique curriculum that combines STEM subjects, languages and creative disciplines.",
+    "features": [
+      { "title": "Advanced technology", "text": "Robotics, IT and digital labs — students gain real practical skills." },
+      { "title": "International standards", "text": "Lessons follow modern pedagogy and the best global teaching experience." },
+      { "title": "Creative environment", "text": "Sports, arts and creative clubs — every student finds their talent." }
+    ]
+  },
+  "featuredNews": {
+    "eyebrow": "Latest news",
+    "title": "School life",
+    "cta": "All news"
+  },
+  "aboutPreview": {
+    "eyebrow": "About us",
+    "title": "A beacon of knowledge since 1978",
+    "text": "With nearly half a century of history, School No. 20 now offers modern facilities and quality education to thousands of students together with an experienced teaching team.",
+    "cta": "Learn more"
+  },
+  "cta": {
+    "title": "Join the School No. 20 community",
+    "text": "Make the right choice for your child's future. Register and stay in touch with us.",
+    "btn1": "Register",
+    "btn2": "News"
+  },
+  "about": {
+    "eyebrow": "About the school",
+    "title": "Our history and values",
+    "p1": "School No. 20 was founded in 1978 and has since raised thousands of graduates. Today our school is equipped with modern educational technology: interactive classrooms, STEM labs, a sports hall and a library.",
+    "p2": "Our main goal is to unlock the potential of every student and raise independent, responsible and knowledgeable individuals.",
+    "missionTitle": "Our mission",
+    "mission": "To give every student the knowledge and skills needed to succeed in the modern world.",
+    "visionTitle": "Our vision",
+    "vision": "To become the most advanced and innovative educational institution in the region.",
+    "valuesTitle": "Our values",
+    "values": [
+      { "title": "Knowledge", "text": "A constant drive to learn and grow." },
+      { "title": "Integrity", "text": "Openness and honesty are the foundation of everything we do." },
+      { "title": "Creativity", "text": "Openness to new ideas and approaches." },
+      { "title": "Unity", "text": "Working as a team and supporting one another." }
+    ],
+    "timelineTitle": "Our journey",
+    "timeline": [
+      { "year": "1978", "text": "The school was founded and its first students were admitted." },
+      { "year": "1995", "text": "Computer classrooms opened and informatics was introduced." },
+      { "year": "2010", "text": "The school was fully renovated and a new sports hall was built." },
+      { "year": "2020", "text": "STEM labs and a robotics club were launched." },
+      { "year": "2026", "text": "A digital learning platform and international partnership programs were introduced." }
+    ],
+    "cta": "Follow our news"
+  },
+  "news": {
+    "eyebrow": "News",
+    "title": "The latest from school life",
+    "subtitle": "Be the first to know about olympiads, events and important changes at our school.",
+    "all": "All",
+    "readMore": "Read more",
+    "back": "All news",
+    "notFound": "Article not found",
+    "items": [
+      {
+        "slug": "robotics-olympiad",
+        "title": "Our students won the national robotics olympiad",
+        "date": "May 12, 2026",
+        "category": "Competitions",
+        "excerpt": "Our team won 2 gold and 1 silver medals at the National Robotics Olympiad.",
+        "body": [
+          "Team No. 20 delivered a brilliant performance at the National Robotics Olympiad. The team, made up of students from grades 3 to 11, took first place in two categories.",
+          "Our students spent three months designing, programming and testing their robots. The jury highly praised their technical solutions.",
+          "The school administration congratulated the winners and announced plans to take part in international competitions next year."
+        ]
+      },
+      {
+        "slug": "new-science-lab",
+        "title": "A new STEM laboratory has opened",
+        "date": "April 28, 2026",
+        "category": "School life",
+        "excerpt": "A laboratory fully equipped with modern instruments for physics, chemistry and biology is now in operation.",
+        "body": [
+          "The new STEM laboratory has opened its doors for our students. It is fully equipped with everything needed for modern hands-on experiments in physics, chemistry and biology.",
+          "The upgraded lab features 3D printers, microscopes and interactive whiteboards. Students can now put their theoretical knowledge into practice.",
+          "At the opening ceremony, students presented the scientific projects they had prepared."
+        ]
+      },
+      {
+        "slug": "english-immersion-week",
+        "title": "English immersion week took place",
+        "date": "April 10, 2026",
+        "category": "Events",
+        "excerpt": "For a whole week students took part in debates, quizzes and creative competitions in English.",
+        "body": [
+          "English immersion week at School No. 20 was a great success. Throughout the week students joined speech contests, debates and quizzes held entirely in English.",
+          "On the final day, students performed theatrical sketches in English. The most active participants received special certificates.",
+          "Our foreign language teachers announced that this event will now become a tradition held every academic year."
+        ]
+      },
+      {
+        "slug": "graduates-day",
+        "title": "Graduation Day — 2026",
+        "date": "May 25, 2026",
+        "category": "Events",
+        "excerpt": "This year's graduates scored high on international exams and gained admission to prestigious universities.",
+        "body": [
+          "Graduation Day was a solemn and moving occasion for School No. 20. This year 120 graduates successfully completed school and stepped into a new chapter of life.",
+          "Many of our graduates earned high scores on international exams and were admitted to the republic's most prestigious universities.",
+          "At the ceremony, graduates prepared a concert program for their teachers and left their mark in the school's history."
+        ]
+      },
+      {
+        "slug": "chess-club-victory",
+        "title": "Chess club takes 1st place at the city championship",
+        "date": "March 15, 2026",
+        "category": "Competitions",
+        "excerpt": "Our chess club members won first place in the team standings of the city championship.",
+        "body": [
+          "Members of School No. 20's chess club took part in the city schools championship and won first place in the team standings.",
+          "Twenty-four school teams competed. Our students' consistent play earned them the title.",
+          "The club leader noted that this achievement came from the students' hard work and expects even better results at future competitions."
+        ]
+      },
+      {
+        "slug": "eco-spring",
+        "title": "\"Green Spring\" eco campaign",
+        "date": "March 5, 2026",
+        "category": "School life",
+        "excerpt": "Students planted more than 200 trees and shrubs around the school grounds.",
+        "body": [
+          "As part of the \"Green Spring\" eco campaign, School No. 20 students planted more than 200 trees and shrubs around the school grounds.",
+          "All classes took part. Students greened their own areas, making our school even more beautiful.",
+          "The eco campaign will now become a tradition held every spring."
+        ]
+      }
+    ]
+  },
+  "teachers": {
+    "eyebrow": "Teaching team",
+    "title": "Our teachers",
+    "subtitle": "Experienced and innovative educators work hard for the success of every student.",
+    "experience": "Experience",
+    "items": [
+      { "name": "Dilnoza Karimova", "subject": "Mathematics", "exp": "22 years", "bio": "Teacher of the highest category, mentor of olympiad winners." },
+      { "name": "Aziz Rakhimov", "subject": "Physics", "exp": "18 years", "bio": "Founder of the STEM laboratory, head of scientific projects." },
+      { "name": "Malika Yusupova", "subject": "English", "exp": "15 years", "bio": "IELTS certificate holder, coordinator of international exchange programs." },
+      { "name": "Jamshid Toshpolatov", "subject": "Informatics", "exp": "10 years", "bio": "Head of the robotics club, programming mentor." },
+      { "name": "Gulnora Saidova", "subject": "Chemistry", "exp": "20 years", "bio": "Methodologist who prepared winners of national competitions." },
+      { "name": "Bobur Nazarov", "subject": "History", "exp": "12 years", "bio": "Leader of the museum project, an active young teacher." },
+      { "name": "Nilufar Abdullayeva", "subject": "Native language & literature", "exp": "17 years", "bio": "Initiator of reading month, mentor for essay competitions." },
+      { "name": "Sarvar Ismoilov", "subject": "Physical education", "exp": "14 years", "bio": "Sports club coach who trained city championship winners." }
+    ]
+  },
+  "gallery": {
+    "eyebrow": "Gallery",
+    "title": "Moments from school life",
+    "subtitle": "Events, lessons and everyday life at our school — in photos.",
+    "all": "All",
+    "items": [
+      { "seed": "m20-campus", "title": "School building", "tag": "Facilities" },
+      { "seed": "m20-lab", "title": "STEM laboratory", "tag": "Lessons" },
+      { "seed": "m20-robotics", "title": "Robotics club", "tag": "Clubs" },
+      { "seed": "m20-library", "title": "Library", "tag": "Facilities" },
+      { "seed": "m20-sport", "title": "Sports hall", "tag": "Sports" },
+      { "seed": "m20-olympiad", "title": "Olympiad victory", "tag": "Events" },
+      { "seed": "m20-graduation", "title": "Graduation day", "tag": "Events" },
+      { "seed": "m20-concert", "title": "Concert program", "tag": "Events" }
+    ]
+  },
+  "auth": {
+    "loginTitle": "Sign in to your account",
+    "loginSubtitle": "Enter your details to access your personal account.",
+    "registerTitle": "Create an account",
+    "registerSubtitle": "Join the School No. 20 community — create an account in a minute.",
+    "name": "Full name",
+    "namePlaceholder": "Ali Valiyev",
+    "email": "Email address",
+    "emailPlaceholder": "you@example.com",
+    "password": "Password",
+    "passwordPlaceholder": "At least 8 characters",
+    "confirm": "Confirm password",
+    "confirmPlaceholder": "Re-enter your password",
+    "loginBtn": "Sign in",
+    "registerBtn": "Create account",
+    "loading": "Submitting...",
+    "noAccount": "Don't have an account?",
+    "haveAccount": "Already have an account?",
+    "toRegister": "Create one",
+    "toLogin": "Sign in",
+    "successLogin": "Welcome back!",
+    "successRegister": "Account created successfully!",
+    "logout": "Log out",
+    "welcome": "Welcome",
+    "strength": "Password strength",
+    "errors": {
+      "nameShort": "Name must be at least 2 characters.",
+      "emailInvalid": "Please enter a valid email address.",
+      "passwordShort": "Password must be at least 8 characters.",
+      "passwordMismatch": "Passwords do not match.",
+      "emailExists": "This email is already registered.",
+      "invalidCredentials": "Incorrect email or password.",
+      "required": "This field is required."
+    }
+  },
+  "footer": {
+    "blurb": "School No. 20 — a modern center of knowledge, technology and creativity. Raising thousands of graduates since 1978.",
+    "linksTitle": "Pages",
+    "infoTitle": "School",
+    "address": "City center, Ma'rifat Street 20",
+    "phone": "+998 (71) 200-20-20",
+    "email": "info@20-maktab.uz",
+    "hours": "Monday — Saturday: 8:00 — 17:00",
+    "rights": "All rights reserved.",
+    "madeWith": "Made with love"
+  }
+}
