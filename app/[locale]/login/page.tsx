@@ -28,9 +28,11 @@ export default function LoginPage() {
   const [submitting, setSubmitting] = useState(false);
   const [success, setSuccess] = useState(false);
 
+  // Redirect already-logged-in visitors away, but don't steal the success
+  // screen right after a successful sign-in (success branch handles redirect).
   useEffect(() => {
-    if (user && !loading) router.replace("/");
-  }, [user, loading, router]);
+    if (user && !loading && !success) router.replace("/");
+  }, [user, loading, success, router]);
 
   const validate = () => {
     const e: typeof errors = {};
