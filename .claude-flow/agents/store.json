@@ -1,0 +1,21 @@
+{
+  "agents": {
+    "agent-1786114641467-zsrmmt": {
+      "agentId": "agent-1786114641467-zsrmmt",
+      "agentType": "coder",
+      "status": "active",
+      "health": 1,
+      "taskCount": 0,
+      "config": {
+        "provider": "anthropic",
+        "timeout": 300,
+        "autoTools": true
+      },
+      "createdAt": "2026-08-07T14:57:21.467Z",
+      "model": "sonnet",
+      "modelRoutedBy": "default",
+      "currentTask": "task-1786114775897-fljxhq"
+    }
+  },
+  "version": "3.0.0"
+}
