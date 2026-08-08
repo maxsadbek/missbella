@@ -239,6 +239,7 @@
       "passwordMismatch": "Parollar mos kelmadi.",
       "emailExists": "Bu elektron pochta allaqachon ro'yxatdan o'tgan.",
       "invalidCredentials": "Elektron pochta yoki parol noto'g'ri.",
+      "secureContext": "Kirish uchun xavfsiz ulanish (HTTPS) talab qilinadi.",
       "required": "Bu maydon to'ldirilishi shart."
     }
   },

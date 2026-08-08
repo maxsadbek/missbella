@@ -239,6 +239,7 @@
       "passwordMismatch": "Passwords do not match.",
       "emailExists": "This email is already registered.",
       "invalidCredentials": "Incorrect email or password.",
+      "secureContext": "A secure connection (HTTPS) is required to sign in.",
       "required": "This field is required."
     }
   },
